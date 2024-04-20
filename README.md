@@ -1,6 +1,14 @@
 # My README File
 Hello World
 
+Guidelines:
+a. Design your website by observing the principles of human and computer interaction. Set up your site as creative as possible but still strive for consistency.
+b. The website prototype must be designed using Figma and make sure to create some features, such as color and text style, effect, component, variant or interactive component, and navigation.
+c. Consider the color, font, size, and layout that you use to design the prototype and website.
+d. Use only external CSS. Internal or inline CSS will not be marked.
+e. Use CSS box positioning to design your web structure, do not use table for the layout.
+f. Consider the language you use, including spelling and grammar, feel free to choose either Bahasa or English, but you cannot have both at the same time.
+
 ## layout
 ```html
 
