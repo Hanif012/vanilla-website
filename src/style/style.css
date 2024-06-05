@@ -1,45 +1,234 @@
-/* Reset default styles */
-* {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
     margin: 0;
     padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+header h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+    margin: 0;
+}
+
+header span {
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    font-size: 18px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: url('background.jpg') no-repeat center center/cover;
+}
+
+.intro-text {
+    max-width: 50%;
+}
+
+.intro-text h2 {
+    font-size: 24px;
+}
+
+.intro-text .join-button,
+.intro-text .signup-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.judge-info {
+    max-width: 50%;
+    text-align: right;
+}
+
+.judge-info h3 {
+    font-size: 20px;
+    color: #ffa500;
+}
+
+.judge-info p {
+    font-size: 16px;
+}
+
+.judge-info img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.partners {
+    padding: 20px;
+    text-align: center;
+}
+
+.partners h2 {
+    font-size: 28px;
+    color: #ffa500;
+    margin-bottom: 20px;
+}
+
+.partners-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.partner {
+    background-color: #2a2a2a;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.partner img {
+    width: 100px;
+    height: auto;
+}
+
+.news {
+    margin-bottom: 40px;
+}
+
+.news h2 {
+    font-size: 28px;
+    color: #ffa500;
+    margin-bottom: 20px;
+}
+
+.news-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2a2a2a;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.news-item p {
+    font-size: 16px;
+    margin: 10px 0 0 0;
+}
+
+.series {
+    margin-bottom: 40px;
+}
+
+.series h2 {
+    font-size: 28px;
+    color: #ffa500;
+    margin-bottom: 20px;
+}
+
+.car-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.car {
+    background-color: #2a2a2a;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(33.333% - 20px);
     box-sizing: border-box;
 }
 
-/* Set a default font and background color */
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f2f2f2;
+.car img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
-/* Add some basic styling to headings */
-h1 {
-    font-size: 36px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+.car p {
+    font-size: 16px;
+    margin: 10px 0 0 0;
 }
 
-h2 {
-    font-size: 28px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 16px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+.benefits {
+    max-width: 50%;
+    text-align: right;
 }
 
-h3 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 12px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+.benefits h3 {
+    font-size: 20px;
+    color: #ffa500;
 }
 
-/* Add some basic styling to paragraphs */
-p {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 16px;
-    line-height: 1.5;
+.benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.benefits ul li {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-links li {
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
 }
